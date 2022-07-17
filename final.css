@@ -1,0 +1,181 @@
+/* Valeta Wensloffs's CSS Document. 
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+Blue:#006 #1297BD
+pink: #FFA8BA
+Purple: #B3B9FF #8A92FF
+light yellow: #F0FFBF
+yellow:  #E8CCA2
+*/
+
+/* the html element below is the "background" of your page */
+html {
+	background-image:url("sea.png");
+	background-repeat:repeat-y;
+	background-size: 1800px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color:#fff;
+	border-style: solid;
+	border-width: 7px;
+	padding: 50px;
+	background-color: #FFF;
+	background-image:url("weather.png");
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 25px;
+	border-radius: 20px;
+}
+
+h1 {
+	text-align: center;
+	background-color:#B3B9FF;
+	color: #fff;
+	margin-bottom: 35px;
+	background-image: url("peyman-farmani-1nBw4cGOuLY-unsplash.jpg");
+}
+
+h2 {
+	padding: 7px;
+	color: #1297BD;
+}
+
+h3 {
+	color: #B7856A;
+	text-indent: 21px;
+}
+
+.photo {
+	border: 1px solid #D7F7FF;
+	padding: 15px;
+  	box-shadow: 5px 10px #1097BD ;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.banner{
+	height:auto;
+	padding:2px;
+	align-items: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/* The code below here alters your links */
+
+
+/* navparts */
+
+#nav {
+	background-color: #1097BD;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px; 
+	margin-top:-7.5px;
+	margin-bottom:-21px;
+	border-color:#78B4CE;
+	border-width:4.5px;
+	border-style:inset;
+}
+
+#nav li {
+  	display:inline;
+}
+
+#nav a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	padding-right: 25px;
+	padding-left: 10px;
+}
+
+#nav a:hover {
+	text-decoration: none;
+	background-color:#fff;
+	color:#1097BD;
+}
+#nav a:active {
+    color: white;
+    background-color:#118BAD;
+}
+
+#hometown
+	{border-color:#B7856A;
+	border-style: dotted;
+	borderclear:both;
+	float:right;
+	margin-top: -50px;
+	margin-right: 55px;
+	width: 40%;
+	height: 30%;
+	box-shadow: 10px 10px 5px #B7856A ;-width: 5px;
+	transform:scale(1.0);
+	transform:rotate(7deg);
+}
+
+#hometown:hover{
+	transform:scale(1.5);
+}
+.link{font-weight:bold;
+	color:teal;
+	text-decoration:underline;
+}
+.link:hover{color:#F0FFBF;
+	text-decoration:inherit;
+}
+.link:visited{text-decoration: line-through;
+}
+.nice {transform: scale（0）;
+}
+.nice:hover{transform:scale(1.1);
+}
+
+#footer {
+	display: block;
+	background-color:#1297BD;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-left: 15px;
+	padding-bottom: 1px;
+	font-size:10px;
+	color: white;
+	font-weight:450;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#footer p {
+	margin-top: -5px;
+}
+
+#footer a {
+	color:#FECC65;
+}
+
+#footer img {
+	border:none;
+	padding-right: 15px;
+	padding-top:3px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.w3c {
+	float: right;
+}
+
+.list1 {
+	list-style: none;
+	color: #B7856A;
+	font-size: 18px;
+	margin-left: -12px;
+	
+}
+
+.list2 {text-indent: 0px;
+}
